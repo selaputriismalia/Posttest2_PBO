@@ -19,6 +19,7 @@ pada stuktur program ini juga mengunakan penyimpanan Arraylist yang bersifat pri
 pada stuktur program ini juga menerapkan final class, final property, final method dan class abstrack.
 final class digunakan pada class "Rental_Costume". "Rental_Costume" di berikan final class karena "Rental_Costume" tidak dapat memiliki kelas turunan lagi membuat struktur class "Rental_Costume" tetap konsisten dan tidak dapat diubah lagi serta dalam class "Rental_Costume" diberikan deklarasi main final yang dimana codingan alur program eksekusi telah final. 
 class "KontrolKarakter" juga menggunakan final class karena pada "KontrolKarakter" berisikan method-method yang tidak dapat diubah lagi.
+
 pada class "Costume" tidak digunakan final class tetapi menggunakan final property karena class "Costume" merupakan kelas abstarack yang berperan sebagai induk yang memiliki class turunan yang itu class "Costume_Anime" dan class "Costume_Game", tetapi dalam setiap class turunan menerapkan final private property dan class Costume juga menerapkan final private property.
 
 pada stuktur program ini juga "Rental_Costume" menerapkan final method yang bersifat static. karena pada "Rental_Costume" berisikan tampilan yang akan berinteraksi dengan pengguna, maka dari itu agar dapat dideklarasikan tanpa membuat objek.
