@@ -5,9 +5,12 @@ Program ini merupakan sebuah program yang berguna untuk admin Rental Costume yan
 Pada stuktur program ini diterapkan agar program dapat menggunakan fungsi CRUD, yang dimana program dapat Create(Menambahkan), Read(Menlihat), Update(Mengubah), Delete(Menghapus). dan pada program ini create digunakan untuk menambahkan costume, read digunakan untuk melihat costume yang telah di tambahakan sebelumnya, update digunakan untuk mengubah harga dari costume tersebut, delete digunakan untuk menghapus costume.
 
 pada stuktur program ini juga diterapkan Konsep MVC yang dimana program berjalan dengan memisah-misahkan pertiap entitas, dan setiap entitas memiliki kelas masing-masing, pembagian nya sebagai berikut :
--Model : package "Entitas_Costume" yang berisi class "Costume", "Costume_Anime", "Costume_Game" seriap class berisi property dari setiap entitas
--View : Package "Rental_Costume" yang berisi class "Rental_Costume" pada class "Rental_Costume" berisi tampilan yang akan berinteraksi dengan pengguna
--Control : Package "Control" yang berisi class "KontrolKarakter" pada class "KontrolKarakter" berisi eksekusi penghubung dari model dan view agar dapat berjalan nya program sesuai dengan apa yang ada di view
+
+- Model : package "Entitas_Costume" yang berisi class "Costume", "Costume_Anime", "Costume_Game" seriap class berisi property dari setiap entitas
+
+- View : Package "Rental_Costume" yang berisi class "Rental_Costume" pada class "Rental_Costume" berisi tampilan yang akan berinteraksi dengan pengguna
+  
+- Control : Package "Control" yang berisi class "KontrolKarakter" pada class "KontrolKarakter" berisi eksekusi penghubung dari model dan view agar dapat berjalan nya program sesuai dengan apa yang ada di view
 
 pada stuktur program ini juga setiap property dari entitas diterapkan aksess modifier privete yang dimana jika ingin mengakses ataupun mengambil property dari entitas tersebut harus menggunakan metode setter dan getter, setter digunakan untuk menetapkan nilai atau variabel dari property nya, sedangkan getter digunakan untuk mendapatka nilai atau variabel dari property nya.
 
